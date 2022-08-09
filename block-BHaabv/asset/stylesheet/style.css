@@ -1,0 +1,346 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom style */
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "Karla", sans-serif;
+	background-color: rgb(29, 32, 41);
+}
+
+.container {
+	max-width: 1100px;
+	margin: 30px auto;
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+/* Header */
+
+.section-header {
+	font-size: 30px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 800;
+	word-spacing: 0em;
+}
+
+.section-para {
+	color: rgba(146, 146, 238, 0.534);
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+/* Toggle Switch */
+
+.dark-mode {
+	color: rgba(191, 191, 240, 0.534);
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.dark-mode-btn {
+	color: #38c999;
+	font-size: 28px;
+	margin-left: 12px;
+	vertical-align: middle;
+}
+
+/* Followers Section */
+
+
+.social-media-box {
+  flex: 0 1 22%;
+	background-color: #252b43;
+	text-align: center;
+	border-radius: 5px;
+	border-top: 4px solid #5cb5ee;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* Facebookb-brands */
+
+.social-media-box a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #5cb5ee;
+	vertical-align: middle;
+}
+
+.fb-brands span {
+	color: #e2d0d0ea;
+	font-size: 14px;
+}
+
+
+h2 {
+	color: #fff;
+	font-size: 56px;
+  line-height: 1;
+	font-weight: 900;
+}
+
+.followers {
+	color: #afbcf1;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+.green {
+	font-size: 14px;
+	color: #4acf4a93;
+	font-weight: 800;
+}
+
+/* Twitter-brand */
+
+
+
+.twitter-brands span {
+	color: #e2d0d0ea;
+	font-size: 14px;
+}
+
+/* Insta-brands */
+
+.box-3 {
+	border-top: 4px solid red;
+}
+
+
+.insta-brands span {
+	color: #e2d0d0ea;
+	font-size: 14px;
+}
+
+.insta-brands a {
+	color: #f15e5e;
+}
+
+/* Youtube */
+
+.box-4 {
+	background-color: #252b43;
+	border-top: 4px solid #cc3d3dd2;
+}
+
+
+.youtube-brands span {
+	color: #e2d0d0ea;
+	font-size: 14px;
+}
+
+.box-4 a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #cc3d3dd2;
+	margin-top: 40px;
+	vertical-align: middle;
+}
+
+.red {
+	font-size: 14px;
+	color: #f15e5e;
+	font-weight: 800;
+}
+
+/* Overview-Section */
+
+/* Page-view */
+
+.overview-header {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.overview-box {
+	width: 250px;
+	height: 130px;
+	background-color: #252b43;
+	border-radius: 5px;
+  margin-top: 30px;
+}
+
+.page-views {
+	margin-top: 20px;
+}
+
+.page-views p {
+	color: #f7c9c9ea;
+	text-transform: capitalize;
+	margin-left: 30px;
+}
+
+.page-views a {
+	font-size: 24px;
+	margin-right: 30px;
+	color: #5cb5ee;
+}
+
+.page-views h2 {
+	font-size: 32px;
+	margin-left: 32px;
+}
+
+.green {
+	color: #4acf4a93;
+	margin-right: 30px;
+}
+
+/* FB-Likes */
+
+.red {
+	color: #f15e5e;
+  margin-right: 30px;
+}
+
+
+/* Instagram-page */
+
+.insta-icon{
+  display: inline-block;
+  color: red;
+}
